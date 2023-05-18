@@ -21,7 +21,7 @@ export const ArticleGridItem = ({
 				article.path.alias
 			}`}
 		>
-			<div className="flex flex-col rounded-lg shadow-lg overflow-hidden cursor-pointer border-2 h-full hover:border-yellow-500">
+			<div className="flex flex-col rounded-lg shadow-lg overflow-hidden cursor-pointer border-2 h-full hover:border-indigo-500">
 				<div className="flex-shrink-0 relative h-40">
 					{imgSrc !== '' ? (
 						<Image
