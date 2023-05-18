@@ -18,6 +18,7 @@ For a quick start, follow the instructions below:
 npm init pantheon-decoupled-kit -- next-drupal
 ```
 
+
 2. Follow the prompts in your terminal to complete the setup.
 
 ## Pantheon npm Packages
