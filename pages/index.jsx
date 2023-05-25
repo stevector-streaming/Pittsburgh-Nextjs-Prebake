@@ -14,28 +14,19 @@ export default function HomepageTemplate({
 	multiLanguage,
 }) {
 	const HomepageHeader = () => (
-		<div className="prose sm:prose-xl mt-20 flex flex-col mx-auto max-w-fit">
-			<h1 className="prose text-4xl text-center h-full">
+		<div id="header" className="flex flex-col mx-auto justify-center">
+			<h1 className="prose text-4xl text-center">
 				Welcome to{' '}
 				<a
-					className="text-blue-600 no-underline hover:underline"
+					className="font-bold no-underline hover:underline"
 					href="https://nextjs.org"
 				>
 					Next.js!
 				</a>
 			</h1>
 			<div className="text-2xl">
-				<div className="bg-black text-white rounded flex items-center justify-center p-4">
-					Decoupled Drupal on{' '}
-					<Image
-						src="/pantheon.png"
-						alt="Pantheon Logo"
-						style={{
-							margin: 0,
-						}}
-						width={191}
-						height={60}
-					/>
+				<div className="text-black rounded flex items-center justify-center p-4">
+					Built with Decoupled Drupal on Pantheon.io{' '}
 				</div>
 			</div>
 		</div>

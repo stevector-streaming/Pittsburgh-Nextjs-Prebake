@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/* GLOBAL */
+
+body {
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+}
+
+/* PRIMARY NAV */
+
+.ps-my-0.ps-pt-10.ps-px-5.ps-text-xl {
+	padding: 30px !important;
+	margin: 0px !important;
+}
+
+.ps-my-0.ps-pt-10.ps-px-5.ps-text-xl nav {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.ps-my-0.ps-pt-10.ps-px-5.ps-text-xl nav > ul {
+	position: relative;
+	left: -203px;
+}
+
+.ps-my-0.ps-pt-10.ps-px-5.ps-text-xl nav .ps-mx-4 {
+	position: relative;
+	right: -372px;
+}
+
+.ps-my-0.ps-pt-10.ps-px-5.ps-text-xl nav > ul > li:last-of-type {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+/* Pantheon Starter Kit Link */
+
+li.ps-mr-auto a {
+	font-weight: 700;
+	margin-right: 40px;
+}
+
+li.ps-mr-auto a::before{
+    content: '';
+    background-image: url("/bolt.svg");
+    background-repeat: no-repeat;
+	padding: 19px 12px 60px;
+	margin: 12px;
+}
+
+/* HEADER */
+
+#header {
+	background-color: #F1ECE6;
+	/* Comment this back in for Background Image */
+	/* background-image: url("/umami-demo-bg.jpg"); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* If not using Background Image, then considering reducing Height as desired */
+	height: 547px;
+}
+
+#header h1 {
+	color: #212622;
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 96px;
+}
+
+#header div {
+	color: #212622;
+	font-family: 'Roboto Serif';
+	font-size: 32px;
+	line-height: 44px;
+}
+
+/* CARDS */
+
+.card {
+	background-color: #827364;
+}
+
+.card h2 {
+	color: #fff;
+	font-weight: 400;
+}
+
+/* FOOTER */
+
+footer { padding-bottom: 80px !important; }
+
+.ps-bg-black {
+	background-color: #F1ECE6 !important;
+	color: #827364 !important;
+	line-height: 137.7%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ps-bg-black ul { margin: 25px 0 13px !important; }
+
+.ps-bg-black li {
+	display: inline;
+	margin: 0 16px;
+}
+
+.ps-bg-black li:first-of-type { margin-left: 0; }
+
+.ps-bg-black a, .ps-bg-black a:hover, .ps-bg-black a:visited, .ps-bg-black a:active { color: #212622; }

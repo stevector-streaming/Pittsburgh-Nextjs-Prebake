@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import '../styles/pitt-umami.css';
 import '@pantheon-systems/nextjs-kit/style.css';
 
 function App({ Component, pageProps }) {
