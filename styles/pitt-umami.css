@@ -57,7 +57,7 @@ li.ps-mr-auto a::before{
 #header {
 	background-color: #F1ECE6;
 	/* Comment this back in for Background Image */
-	/* background-image: url("/umami-demo-bg.jpg"); */
+	background-image: url("/umami-demo-bg.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
