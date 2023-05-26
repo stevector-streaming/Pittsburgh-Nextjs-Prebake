@@ -26,7 +26,7 @@ export default function HomepageTemplate({
 			</h1>
 			<div className="text-2xl">
 				<div className="text-black rounded flex items-center justify-center p-4">
-					Built with Decoupled Drupal on Pantheon.io{' '}
+					Built with Headless Drupal on Pantheon.io{' '}
 				</div>
 			</div>
 		</div>
