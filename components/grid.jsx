@@ -35,7 +35,9 @@ export const ArticleGridItem = ({
 					)}
 				</div>
 				<h2 className="my-4 mx-6 text-xl leading-7 font-semibold text-gray-900">
-					{article.title} &rarr;
+					<marquee>
+						{article.title} &rarr;
+					</marquee>
 				</h2>
 			</div>
 		</Link>
