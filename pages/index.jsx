@@ -15,7 +15,7 @@ export default function HomepageTemplate({
 }) {
 	const HomepageHeader = () => (
 		<div id="header" className="flex flex-col mx-auto justify-center">
-			<h1 className="prose text-4xl text-center">
+			<h1 className="prose text-4xl text-center animate-marquee ">
 				Welcome to{' '}
 				<a
 					className="font-bold no-underline hover:underline"
@@ -25,10 +25,8 @@ export default function HomepageTemplate({
 				</a>
 			</h1>
 			<div className="text-2xl">
-				<div className="text-black rounded flex items-center justify-center p-4">
-					<marquee>
+				<div className="text-black rounded flex items-center justify-center animate-marquee  p-4">
 						Built with Headless Drupal on Pantheon.io
-					</marquee>
 				</div>
 			</div>
 		</div>

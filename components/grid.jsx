@@ -34,10 +34,8 @@ export const ArticleGridItem = ({
 						<GradientPlaceholder />
 					)}
 				</div>
-				<h2 className="my-4 mx-6 text-xl leading-7 font-semibold text-gray-900">
-					<marquee>
+				<h2 className="my-4 mx-6 text-xl leading-7 font-semibold text-gray-900 animate-marquee">
 						{article.title} &rarr;
-					</marquee>
 				</h2>
 			</div>
 		</Link>
