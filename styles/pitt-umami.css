@@ -112,3 +112,16 @@ footer { padding-bottom: 80px !important; }
 .ps-bg-black li:first-of-type { margin-left: 0; }
 
 .ps-bg-black a, .ps-bg-black a:hover, .ps-bg-black a:visited, .ps-bg-black a:active { color: #212622; }
+
+
+@keyframes marquee {
+	0% {
+	  transform: translateX(0%);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+}
+.animate-marquee {
+	animation: marquee 15s linear infinite;
+}
